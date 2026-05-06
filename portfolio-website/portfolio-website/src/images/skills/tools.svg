@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Tools icon</title>
+  <rect x="14" y="22" width="68" height="52" rx="8" fill="#f8fafc" stroke="#111827" stroke-width="6"/>
+  <path d="M28 38h40M28 50h28M28 62h34" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="70" cy="62" r="8" fill="#16a34a"/>
+</svg>

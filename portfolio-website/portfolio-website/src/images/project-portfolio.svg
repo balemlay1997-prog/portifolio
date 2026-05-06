@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio website preview</title>
+  <desc id="desc">A browser-style portfolio layout with profile, skills, and project sections.</desc>
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="56" y="50" width="528" height="260" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="56" y="50" width="528" height="42" rx="8" fill="#111827"/>
+  <circle cx="84" cy="71" r="6" fill="#ef4444"/>
+  <circle cx="106" cy="71" r="6" fill="#f59e0b"/>
+  <circle cx="128" cy="71" r="6" fill="#22c55e"/>
+  <rect x="96" y="130" width="150" height="150" rx="8" fill="#e5e7eb"/>
+  <circle cx="171" cy="172" r="34" fill="#94a3b8"/>
+  <path d="M118 270c12-48 94-48 106 0" fill="#94a3b8"/>
+  <rect x="292" y="132" width="210" height="20" rx="4" fill="#111827"/>
+  <rect x="292" y="172" width="250" height="12" rx="4" fill="#94a3b8"/>
+  <rect x="292" y="198" width="220" height="12" rx="4" fill="#cbd5e1"/>
+  <rect x="292" y="238" width="94" height="34" rx="8" fill="#111827"/>
+  <rect x="404" y="238" width="96" height="34" rx="8" fill="#475569"/>
+</svg>

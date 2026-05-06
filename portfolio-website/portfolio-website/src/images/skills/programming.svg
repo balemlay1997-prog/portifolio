@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Programming icon</title>
+  <rect x="16" y="12" width="54" height="72" rx="8" fill="#ffffff" stroke="#111827" stroke-width="6"/>
+  <rect x="28" y="24" width="30" height="6" rx="3" fill="#2563eb"/>
+  <rect x="28" y="40" width="24" height="6" rx="3" fill="#16a34a"/>
+  <rect x="28" y="56" width="32" height="6" rx="3" fill="#f97316"/>
+  <circle cx="72" cy="66" r="12" fill="#111827"/>
+  <path d="M67 66h10M72 61v10" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>
