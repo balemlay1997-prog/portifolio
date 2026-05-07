@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cafe management system preview</title>
+  <desc id="desc">A cafe order board with menu tiles and order summary.</desc>
+  <rect width="640" height="360" fill="#fff7ed"/>
+  <rect x="70" y="48" width="500" height="264" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="4"/>
+  <rect x="100" y="84" width="186" height="40" rx="8" fill="#111827"/>
+  <rect x="104" y="158" width="110" height="92" rx="8" fill="#f97316"/>
+  <rect x="234" y="158" width="110" height="92" rx="8" fill="#f59e0b"/>
+  <rect x="364" y="158" width="110" height="92" rx="8" fill="#84cc16"/>
+  <circle cx="160" cy="194" r="22" fill="#ffffff"/>
+  <rect x="260" y="186" width="58" height="26" rx="8" fill="#ffffff"/>
+  <path d="M418 180c22 0 28 18 28 34h-56c0-16 6-34 28-34z" fill="#ffffff"/>
+  <rect x="100" y="270" width="374" height="14" rx="4" fill="#fdba74"/>
+  <rect x="318" y="94" width="178" height="14" rx="4" fill="#9a3412"/>
+  <rect x="318" y="122" width="134" height="14" rx="4" fill="#fdba74"/>
+</svg>
