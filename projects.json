@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Responsive Portfolio Website",
+        "description": "A personal portfolio website showcasing skills and projects, built with HTML, CSS, and JavaScript.",
+        "technologies": "HTML, CSS, JavaScript",
+        "image": "images/project-portfolio.svg",
+        "imageAlt": "Responsive portfolio website preview",
+        "codeLink": "https://github.com/balemlay/portfolio",
+        "demoLink": "https://balemlay.github.io/portfolio"
+    },
+    {
+        "title": "Interactive Game",
+        "description": "A simple interactive game built using JavaScript for user engagement.",
+        "technologies": "JavaScript, HTML, CSS",
+        "image": "images/project-game.svg",
+        "imageAlt": "Interactive game preview",
+        "codeLink": "https://github.com/balemlay/game",
+        "demoLink": "https://balemlay.github.io/game"
+    },
+    {
+        "title": "Banking System",
+        "description": "A Java console banking system with account creation, login, deposit, withdraw, and transfers.",
+        "technologies": "Java, OOP, Console",
+        "image": "images/project-banking.svg",
+        "imageAlt": "Banking system preview",
+        "codeLink": "https://github.com/balemlay/banking-system",
+        "demoLink": "https://github.com/balemlay/banking-system"
+    },
+    {
+        "title": "Cafe Management System",
+        "description": "A cafe system project for managing orders, menu items, and inventory.",
+        "technologies": "Java, OOP, Console",
+        "image": "images/project-cafe.png",
+        "imageAlt": "Coffee menu image for the cafe management system",
+        "codeLink": "https://github.com/balemlay/cafe-system",
+        "demoLink": "https://github.com/balemlay/cafe-system"
+    }
+]
