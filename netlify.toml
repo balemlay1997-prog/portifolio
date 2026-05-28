@@ -1,0 +1,3 @@
+[build]
+  publish = "portfolio-website/portfolio-website/src"
+  command = ""
