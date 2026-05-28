@@ -1,38 +1,29 @@
 [
     {
-        "title": "Responsive Portfolio Website",
-        "description": "A personal portfolio website showcasing skills and projects, built with HTML, CSS, and JavaScript.",
-        "technologies": "HTML, CSS, JavaScript",
+        "title": "Student Management System",
+        "description": "A desktop application for managing student records, including add, update, delete, and search functions with real-time database handling.",
+        "technologies": "C#, SQL, CRUD Operations, Database Connectivity",
         "image": "images/project-portfolio.svg",
-        "imageAlt": "Responsive portfolio website preview",
-        "codeLink": "https://github.com/balemlay/portfolio",
-        "demoLink": "https://balemlay.github.io/portfolio"
+        "imageAlt": "Student management system project preview",
+        "codeLink": "https://github.com/balemlay1997-prog",
+        "demoLink": "https://github.com/balemlay1997-prog"
     },
     {
-        "title": "Interactive Game",
-        "description": "A simple interactive game built using JavaScript for user engagement.",
-        "technologies": "JavaScript, HTML, CSS",
+        "title": "Simple Calculator Application",
+        "description": "A Java application that performs basic arithmetic operations and strengthens event handling and logic-building skills.",
+        "technologies": "Java, Application Logic, Event Handling",
         "image": "images/project-game.svg",
-        "imageAlt": "Interactive game preview",
-        "codeLink": "https://github.com/balemlay/game",
-        "demoLink": "https://balemlay.github.io/game"
+        "imageAlt": "Simple calculator application project preview",
+        "codeLink": "https://github.com/balemlay1997-prog",
+        "demoLink": "https://github.com/balemlay1997-prog"
     },
     {
-        "title": "Banking System",
-        "description": "A Java console banking system with account creation, login, deposit, withdraw, and transfers.",
-        "technologies": "Java, OOP, Console",
+        "title": "Library Management System",
+        "description": "A concept project designed to manage books, users, and borrowing records with a focus on database structure and software design.",
+        "technologies": "SQL, Database Design, Software Design Concepts",
         "image": "images/project-banking.svg",
-        "imageAlt": "Banking system preview",
-        "codeLink": "https://github.com/balemlay/banking-system",
-        "demoLink": "https://github.com/balemlay/banking-system"
-    },
-    {
-        "title": "Cafe Management System",
-        "description": "A cafe system project for managing orders, menu items, and inventory.",
-        "technologies": "Java, OOP, Console",
-        "image": "images/project-cafe.png",
-        "imageAlt": "Coffee menu image for the cafe management system",
-        "codeLink": "https://github.com/balemlay/cafe-system",
-        "demoLink": "https://github.com/balemlay/cafe-system"
+        "imageAlt": "Library management system project preview",
+        "codeLink": "https://github.com/balemlay1997-prog",
+        "demoLink": "https://github.com/balemlay1997-prog"
     }
 ]

@@ -22,10 +22,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 });
 
 function sendToGitHub(name, email, phone) {
-    const repoOwner = 'balemlay'; // Replace with your GitHub username
+    const repoOwner = 'balemlay1997-prog'; // Replace with your GitHub username
     const repoName = 'portfolio-contact'; // Replace with your repository name for issues
-    // WARNING: Do not hardcode your token here for public repositories!
-    const token = 'YOUR_GITHUB_TOKEN'; 
+
+    // DANGER: Never push a real GitHub token to a public repository.
+    // GitHub will automatically revoke it. Consider using Formspree for contact forms.
+    const token = 'YOUR_GITHUB_TOKEN';
 
     const issueTitle = `Contact from ${name}`;
     const issueBody = `**Name:** ${name}\n**Email:** ${email}\n**Phone:** ${phone}`;

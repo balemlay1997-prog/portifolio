@@ -2,10 +2,10 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "A personal portfolio website to showcase projects and skills.",
-  "main": "src/index.html",
+  "main": "public/index.html",
   "scripts": {
-    "start": "live-server src",
-    "build": "echo 'Build step not defined'",
+    "start": "live-server public",
+    "deploy": "gh-pages -d public",
     "test": "echo 'No tests specified'"
   },
   "keywords": [
@@ -17,5 +17,7 @@
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }

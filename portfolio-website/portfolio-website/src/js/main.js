@@ -1,40 +1,31 @@
 // main.js
 const defaultProjects = [
     {
-        title: 'Responsive Portfolio Website',
-        description: 'A personal portfolio website showcasing skills and projects, built with HTML, CSS, and JavaScript.',
-        technologies: 'HTML, CSS, JavaScript',
+        title: 'Student Management System',
+        description: 'A desktop application for managing student records, including add, update, delete, and search functions with real-time database handling.',
+        technologies: 'C#, SQL, CRUD Operations, Database Connectivity',
         image: 'images/project-portfolio.svg',
-        imageAlt: 'Responsive portfolio website preview',
-        codeLink: 'https://github.com/balemlay/portfolio',
-        demoLink: 'https://balemlay.github.io/portfolio'
+        imageAlt: 'Student management system project preview',
+        codeLink: 'https://github.com/balemlay1997-prog',
+        demoLink: 'https://github.com/balemlay1997-prog'
     },
     {
-        title: 'Interactive Game',
-        description: 'A simple interactive game built using JavaScript for user engagement.',
-        technologies: 'JavaScript, HTML, CSS',
+        title: 'Simple Calculator Application',
+        description: 'A Java application that performs basic arithmetic operations and strengthens event handling and logic-building skills.',
+        technologies: 'Java, Application Logic, Event Handling',
         image: 'images/project-game.svg',
-        imageAlt: 'Interactive game preview',
-        codeLink: 'https://github.com/balemlay/game',
-        demoLink: 'https://balemlay.github.io/game'
+        imageAlt: 'Simple calculator application project preview',
+        codeLink: 'https://github.com/balemlay1997-prog',
+        demoLink: 'https://github.com/balemlay1997-prog'
     },
     {
-        title: 'Banking System',
-        description: 'A Java console banking system with account creation, login, deposit, withdraw, and transfers.',
-        technologies: 'Java, OOP, Console',
+        title: 'Library Management System',
+        description: 'A concept project designed to manage books, users, and borrowing records with a focus on database structure and software design.',
+        technologies: 'SQL, Database Design, Software Design Concepts',
         image: 'images/project-banking.svg',
-        imageAlt: 'Banking system preview',
-        codeLink: 'https://github.com/balemlay/banking-system',
-        demoLink: 'https://github.com/balemlay/banking-system'
-    },
-    {
-        title: 'Cafe Management System',
-        description: 'A cafe system project for managing orders, menu items, and inventory.',
-        technologies: 'Java, OOP, Console',
-        image: 'images/project-cafe.png',
-        imageAlt: 'Coffee menu image for the cafe management system',
-        codeLink: 'https://github.com/balemlay/cafe-system',
-        demoLink: 'https://github.com/balemlay/cafe-system'
+        imageAlt: 'Library management system project preview',
+        codeLink: 'https://github.com/balemlay1997-prog',
+        demoLink: 'https://github.com/balemlay1997-prog'
     }
 ];
 
@@ -125,14 +116,40 @@ function renderProjects(projects) {
     projects.forEach(project => {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
+        projectCard.tabIndex = 0;
+        projectCard.setAttribute('role', 'link');
+        projectCard.setAttribute('aria-label', `Open ${project.title} on GitHub`);
+        projectCard.dataset.githubLink = project.codeLink;
+
+        // Only show Live Demo button if it's different from the Code Link (prevents redundancy for console apps)
+        const demoButton = (project.demoLink && project.demoLink !== project.codeLink)
+            ? `<a href="${project.demoLink}" class="btn" target="_blank" rel="noopener">Live Demo</a>`
+            : '';
+
         projectCard.innerHTML = `
-            <img src="${project.image}" alt="${project.imageAlt}" class="project-image">
-            <h3>${project.title}</h3>
+            <a href="${project.codeLink}" target="_blank" rel="noopener"><img src="${project.image}" alt="${project.imageAlt}" class="project-image"></a>
+            <h3><a href="${project.codeLink}" target="_blank" rel="noopener">${project.title}</a></h3>
             <p>${project.description}</p>
             <p><strong>Technologies:</strong> ${project.technologies}</p>
-            <a href="${project.codeLink}" class="btn" target="_blank">View Code</a>
-            <a href="${project.demoLink}" class="btn" target="_blank">Live Demo</a>
+            <a href="${project.codeLink}" class="btn" target="_blank" rel="noopener">View Code</a>
+            ${demoButton}
         `;
+
+        projectCard.addEventListener('click', event => {
+            if (event.target.closest('a')) {
+                return;
+            }
+
+            window.open(projectCard.dataset.githubLink, '_blank', 'noopener');
+        });
+
+        projectCard.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                window.open(projectCard.dataset.githubLink, '_blank', 'noopener');
+            }
+        });
+
         projectList.appendChild(projectCard);
     });
 }
